@@ -1,15 +1,15 @@
 
 
-def my_collect( ["RUBY", "JAVASCRIPT", "PYTHON", "OBJECTIVE-C"])
+def my_collect(empty_array)
   collection = []
   i=0
-   while i< collection.length
-     yield(collection[i])
+   while i< empty_array.length
+     yield(empty_array[i])
      i+=
    end
    collection
  end
 
-  my_collect( ["RUBY", "JAVASCRIPT", "PYTHON", "OBJECTIVE-C"]) do |i|
+  my_collect(empty_array) do |i|
   collection>> i.upcase
 end
