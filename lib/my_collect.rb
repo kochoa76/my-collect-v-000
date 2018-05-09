@@ -3,9 +3,9 @@
 def my_collect(empty_array)
   collection = []
   i=0
-   while i< empty_array.length
+   while (i< empty_array.length)
      yield(empty_array[i])
-     i+=
+     i+=1
 end
    collection
  end
