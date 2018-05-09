@@ -8,7 +8,8 @@ def my_collect(empty_array)
      i+=1
    collection
  end
- 
+ end
+
 
   my_collect(empty_array) do |i|
   collection>> i.upcase
