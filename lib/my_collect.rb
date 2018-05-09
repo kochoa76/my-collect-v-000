@@ -9,8 +9,5 @@ def my_collect(array)
    end
    collection
  end
- 
 
 
-  my_collect(array) {|i|
-  collection>> i.upcase}
